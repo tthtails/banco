@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Candara;
+}
+
+/* cabeçalho e footer */
+
+body {
+    background-color: rgb(209, 255, 205);
+}
+
+header {
+    background-color: rgb(164, 211, 150);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgb(54, 105, 53);
+}
+
+.title {
+    color: rgb(54, 105, 53);
+    text-decoration: underline rgb(144, 192, 135);
+}
+
+.subtitle {
+    color: rgb(54, 105, 53);
+    font-size: 15px;
+}
+
+footer {
+    box-shadow: 1px 1px 3px 2px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    background-color: rgb(12, 44, 12);
+    color: rgb(233, 255, 233);
+    font-weight: bold;
+    text-shadow: 0px 0px 2px;
+    margin-top: 38px;
+}
+
+/* main */
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(54, 105, 53);
+}
+
+.box-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    margin-top: 1.5%;
+}
+
+.balance{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(36, 85, 35);
+    margin-bottom: 3%;
+}
+
+.name-client, .amount {
+    text-align: 10px;
+    width: 250px;
+    height: 25px;
+    border: none;
+    box-shadow: 0px 0px 6px rgb(101, 151, 93);
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.name-client:focus, .amount:focus {
+    outline: 0;
+}
+
+.box-action {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 3%;
+}
+
+.buttons {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(113, 173, 112) ;
+    box-shadow:  0px 0px 5px 0px black;
+}
+
+.buttons:hover {
+    background-color: rgb(36, 85, 35);
+    cursor: pointer;
+}
+
+.box-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.result {
+    color: rgb(54, 105, 53);
+    font-size: 18px;
+    background-color: rgb(167, 243, 173);
+    height: 60px;
+    width: 500px;
+    padding-left: 8px;
+    padding-top: 4px;
+    box-shadow: 0.5px 0.5px 4px 0.5px black;
+}
+
+.home {
+    margin-top: 40px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: rgb(226, 255, 225);
+    border-radius: 40px;
+    box-shadow: 0.5px 0.5px 3px 0.5px black;
+}
+
+.home:hover {
+    background-color: rgb(81, 167, 79);
+    cursor: pointer;    
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Candara;
+}
+
+body {
+    background-color: rgb(209, 255, 205);
+}
+
+header {
+    background-color: rgb(164, 211, 150);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgb(54, 105, 53);
+}
+
+.title {
+    color: rgb(54, 105, 53);
+    text-decoration: underline rgb(144, 192, 135);
+}
+
+.subtitle {
+    color: rgb(54, 105, 53);
+    font-size: 15px;
+}
+
+.title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 18px;
+    color: rgb(36, 85, 35);
+    font-weight: bold;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.name {
+    color: rgb(36, 85, 35);
+    font-weight: bold;
+    margin-right: 200px;
+}
+
+.user {
+    text-align: 10px;
+    width: 240px;
+    height: 25px;
+    border: none;
+    box-shadow: 0px 0px 6px rgb(101, 151, 93);
+    margin-top: 3px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.user:focus {
+    outline: 0;
+}
+
+.btEnter {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 7px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(113, 173, 112) ;
+    box-shadow:  0px 0px 5px 0px black;
+}
+
+.btEnter:hover {
+    background-color: rgb(36, 85, 35);
+    cursor: pointer;
+}
+
+.enterAdm {
+    margin-top: 193px;
+    margin-left: 1220px;
+    color: rgb(36, 85, 35);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.enterAdm:hover {
+    color: rgb(0, 79, 182);
+    text-decoration: underline;
+}
+
+footer {
+    box-shadow: 1px 1px 3px 2px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    background-color: rgb(12, 44, 12);
+    color: rgb(233, 255, 233);
+    font-weight: bold;
+    text-shadow: 0px 0px 2px;
+    margin-top: 0px;
+}
